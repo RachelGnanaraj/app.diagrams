@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T17:39:15.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.0.1" etag="ygFAz-neIfyTEqB-w90Z" type="github"><diagram id="C2fBhHnS2o7ETpLk-58s">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-21T08:02:29.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bb5gdB378brACXVA1Dl-" version="20.0.1" type="github">
+  <diagram id="C2fBhHnS2o7ETpLk-58s" name="Page-1">
+    <mxGraphModel dx="984" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-1" value="Internet Front-End Portal" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="170" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_2IcgzeKPrnIiRYLjhA2-1">
+          <mxGeometry x="80" y="65" width="10" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Auth status - success | error&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="_2IcgzeKPrnIiRYLjhA2-1" source="_2IcgzeKPrnIiRYLjhA2-7">
+          <mxGeometry x="0.3878" width="80" relative="1" as="geometry">
+            <mxPoint x="319.5" y="320" as="sourcePoint" />
+            <mxPoint x="94.5" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-4" value="Singpass OIDC" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="40" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_2IcgzeKPrnIiRYLjhA2-4">
+          <mxGeometry x="55" y="70" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-6" value="Sends an authentication request&#xa;(client id, redirect URI, openid scope)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="-0.0453" relative="1" as="geometry">
+            <mxPoint x="250" y="150" as="sourcePoint" />
+            <mxPoint x="469.5" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="150" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-7" value="Intranet Pega Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="40" width="150" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_2IcgzeKPrnIiRYLjhA2-7">
+          <mxGeometry x="70" y="70" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-9" value="Internet User" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="90" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_2IcgzeKPrnIiRYLjhA2-9">
+          <mxGeometry x="40" y="60" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-11" value="Access Login page" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=12;exitX=1;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_2IcgzeKPrnIiRYLjhA2-10" target="_2IcgzeKPrnIiRYLjhA2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="110" as="sourcePoint" />
+            <mxPoint x="230" y="110" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Sends an authorization code&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1">
+          <mxGeometry x="0.1511" width="80" relative="1" as="geometry">
+            <mxPoint x="469.5" y="200" as="sourcePoint" />
+            <mxPoint x="244.5" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-13" value="Redirect to redirect URI with auth code" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="244.5" y="255" as="sourcePoint" />
+            <mxPoint x="654.5" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-14" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Exhange auth code with id token&lt;/span&gt;&lt;br style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;and access token&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_2IcgzeKPrnIiRYLjhA2-15" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;entryX=0;entryY=0.778;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_2IcgzeKPrnIiRYLjhA2-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="sourcePoint" />
+            <mxPoint x="654.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
