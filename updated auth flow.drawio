@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T04:16:00.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qB98nxjI8gzVgTBrUYkQ" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T04:17:20.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UhNq9auRsee1UKt5jCnm" version="20.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1157" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Dmsjx_ReHTggDWPPz3I-16" value="Sends an authentication request&#xa;(client id, redirect URI, openid scope)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=12;" edge="1" parent="1" target="-Dmsjx_ReHTggDWPPz3I-3">
+        <mxCell id="-Dmsjx_ReHTggDWPPz3I-16" value="Sends an authentication request&#xa;(client id, redirect URI, openid scope)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=12;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" target="-Dmsjx_ReHTggDWPPz3I-3">
           <mxGeometry x="-0.0453" relative="1" as="geometry">
             <mxPoint x="600" y="600" as="sourcePoint" />
             <mxPoint x="889.5" y="600" as="targetPoint" />
@@ -69,7 +69,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Dmsjx_ReHTggDWPPz3I-19" value="Redirect to redirect URI with auth code" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Helvetica;fontSize=12;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1">
+        <mxCell id="-Dmsjx_ReHTggDWPPz3I-19" value="Redirect to redirect URI with auth code" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="594.5" y="695" as="sourcePoint" />
             <mxPoint x="1094.5" y="695" as="targetPoint" />
@@ -109,7 +109,7 @@
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;External Interfaces&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1280" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-Dmsjx_ReHTggDWPPz3I-12" value="initAuth()" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=12;exitX=0.508;exitY=0.403;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-Dmsjx_ReHTggDWPPz3I-1">
+        <mxCell id="-Dmsjx_ReHTggDWPPz3I-12" value="initAuth()" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;exitX=0.508;exitY=0.403;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-Dmsjx_ReHTggDWPPz3I-1">
           <mxGeometry x="-0.171" y="10" relative="1" as="geometry">
             <mxPoint x="894.5" y="400.22" as="targetPoint" />
             <mxPoint x="610.04" y="400.22" as="sourcePoint" />
