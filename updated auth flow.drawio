@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T03:04:33.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="_-lrqLSgVBp6o6bdOeWc" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T03:07:12.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UMVgGnGc_ZW1kKDbNdCo" version="20.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1578" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="850" as="geometry" />
+          <mxGeometry x="120" y="80" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Singpass Mobile" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;fontStyle=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="150" height="850" as="geometry" />
+          <mxGeometry x="300" y="80" width="150" height="800" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Visits IRIS page containing embedded QR" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=12;" parent="1" target="-Dmsjx_ReHTggDWPPz3I-1" edge="1">
           <mxGeometry x="-0.0106" y="10" relative="1" as="geometry">
@@ -18,7 +18,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-1" value="Internet &#xa;Front-End Portal" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="500" y="80" width="710" height="840" as="geometry" />
+          <mxGeometry x="500" y="90" width="190" height="790" as="geometry" />
         </mxCell>
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-7" value="1.Lines highlighted in red are to be implemented by the frontend portal&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Dashed line indicate asynchronous calls, solid line denotes synchronous calls&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Assumptions:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IRIS has registered with Singpass OIDC(NDI) and has client ID&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Front-end portal has embedded NDI JavaScript package on their webpage&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="-Dmsjx_ReHTggDWPPz3I-1">
           <mxGeometry x="-75" y="70" width="450" height="120" as="geometry" />
@@ -44,10 +44,10 @@
           <mxGeometry x="-410" y="210" width="1120" height="550" as="geometry" />
         </mxCell>
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-3" value="OIDC Singpass" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="840" y="80" width="100" height="840" as="geometry" />
+          <mxGeometry x="840" y="80" width="110" height="800" as="geometry" />
         </mxCell>
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-5" value="IRIS&#xa;Back-End System" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1030" y="80" width="130" height="840" as="geometry" />
+          <mxGeometry x="1030" y="80" width="130" height="810" as="geometry" />
         </mxCell>
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-9" value="OIDC Initialisation" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
           <mxGeometry x="100" y="320" width="1070" height="190" as="geometry" />
