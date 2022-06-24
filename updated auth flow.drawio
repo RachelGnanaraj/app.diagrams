@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T04:17:29.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9O-xkQWBC6h1-4u9JELh" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T04:18:43.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tXPUEh6iMuM-6eYJpZHm" version="20.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1157" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
             <mxPoint x="180" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Dmsjx_ReHTggDWPPz3I-31" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;IIRIS System&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="-Dmsjx_ReHTggDWPPz3I-31" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;IRIS System&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1280" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Dmsjx_ReHTggDWPPz3I-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;External Interfaces&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
