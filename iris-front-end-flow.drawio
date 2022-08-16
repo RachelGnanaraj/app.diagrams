@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T04:29:46.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NL_SGvP1md7exT5V6CiB" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T04:38:38.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="FI7eiYJCFnpLrrLdumOa" version="20.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="rgae57bcgEdb6kGc82BK-10" value="Events&lt;br&gt;(Attachments, Event IDs)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="480" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rgae57bcgEdb6kGc82BK-11" value="Payment/Submit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rgae57bcgEdb6kGc82BK-11" value="Payment/Submit&lt;br&gt;two options for payment - offline online" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="690" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rgae57bcgEdb6kGc82BK-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rgae57bcgEdb6kGc82BK-18" target="rgae57bcgEdb6kGc82BK-19">
@@ -130,8 +130,8 @@
             <mxPoint x="440" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rgae57bcgEdb6kGc82BK-37" value="SAVE as draft" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="610" width="120" height="50" as="geometry" />
+        <mxCell id="rgae57bcgEdb6kGc82BK-37" value="SAVE as draft&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="450" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rgae57bcgEdb6kGc82BK-39" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
