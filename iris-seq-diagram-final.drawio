@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T07:30:36.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Gb6U_ST9qgl741ghZk_c" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T07:40:36.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qdJT2VBeQCtT-Me6sf_o" version="20.2.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="868" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -92,39 +92,57 @@
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-32" value="Apply for and &#xa;submit AEC " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="490.0000000000025" as="sourcePoint" />
-            <mxPoint x="345" y="490.0000000000025" as="targetPoint" />
+            <mxPoint x="175" y="520.0000000000025" as="sourcePoint" />
+            <mxPoint x="345" y="520.0000000000025" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-33" value="Send metadata via API" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="Q2Nvd-xUFt3gvs3JJhA3-5">
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-33" value="Send metadata via API" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="355" y="530.0000000000025" as="sourcePoint" />
-            <mxPoint x="525" y="530.0000000000025" as="targetPoint" />
+            <mxPoint x="355" y="560.0000000000025" as="sourcePoint" />
+            <mxPoint x="819.5" y="560.0000000000025" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-35" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="560" as="sourcePoint" />
-            <mxPoint x="969.5" y="560" as="targetPoint" />
+            <mxPoint x="830" y="600" as="sourcePoint" />
+            <mxPoint x="960" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-36" value="creates a case instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="535" width="150" height="30" as="geometry" />
+          <mxGeometry x="815" y="565" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-37" value="server response with case creation" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-37" value="server response with case creation" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.9;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="829.5" y="596" as="sourcePoint" />
-            <mxPoint x="365" y="596" as="targetPoint" />
+            <mxPoint x="810" y="626" as="sourcePoint" />
+            <mxPoint x="365" y="626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-39" value="retrieve case" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="630" as="sourcePoint" />
+            <mxPoint x="360" y="660" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="390" y="630" />
+              <mxPoint x="390" y="660" />
             </Array>
-            <mxPoint x="365" y="650" as="targetPoint" />
+            <mxPoint x="365" y="680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-40" value="OIDC Auth" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="940" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="380" as="sourcePoint" />
+            <mxPoint x="969.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-43" value="create session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="355" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-44" value="Application&lt;br&gt;Submission" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="940" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-45" value="Application&lt;br&gt;Processing" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="720" width="940" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
