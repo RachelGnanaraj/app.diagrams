@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T08:06:36.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vfEJZMwoHEBGu8X_ELsf" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T08:27:17.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AYGLuVySC2o1KjD45b7r" version="20.2.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="868" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Applicant" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="920" as="geometry" />
+          <mxGeometry x="120" y="80" width="100" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="730" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="980" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Internet IRIS &#xa;front-end portal" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="920" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="720" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="970" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="User login" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -28,22 +28,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-1" value="API Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="80" width="100" height="920" as="geometry" />
+          <mxGeometry x="610" y="80" width="100" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Q2Nvd-xUFt3gvs3JJhA3-1">
-          <mxGeometry x="45" y="70" width="10" height="730" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="990" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-5" value="Intranet &#xa;Pega System" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="80" width="100" height="920" as="geometry" />
+          <mxGeometry x="770" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Q2Nvd-xUFt3gvs3JJhA3-5">
-          <mxGeometry x="45" y="200" width="10" height="600" as="geometry" />
+          <mxGeometry x="45" y="200" width="10" height="870" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-11" value="PegaRules &#xa;Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="911" y="82" width="100" height="918" as="geometry" />
+          <mxGeometry x="911" y="82" width="100" height="1118" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Q2Nvd-xUFt3gvs3JJhA3-11">
-          <mxGeometry x="45" y="420" width="10" height="380" as="geometry" />
+          <mxGeometry x="45" y="420" width="10" height="640" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-21" value="initiate authentication" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -52,10 +52,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-22" value="OIDC Singpass" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="80" width="100" height="920" as="geometry" />
+          <mxGeometry x="460" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-23" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Q2Nvd-xUFt3gvs3JJhA3-22">
           <mxGeometry x="45" y="80" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-44" value="Application&lt;br&gt;Submission" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="Q2Nvd-xUFt3gvs3JJhA3-22">
+          <mxGeometry x="-410" y="395" width="940" height="225" as="geometry" />
         </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-24" value="sends authentication request &#xa;with client id" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -111,7 +114,7 @@
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-36" value="creates a case instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="815" y="565" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-37" value="server response with case creation" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.9;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-37" value="server response with case creation" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="626" as="sourcePoint" />
             <mxPoint x="365" y="626" as="targetPoint" />
@@ -138,11 +141,94 @@
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-43" value="create session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="840" y="355" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-44" value="Application&lt;br&gt;Submission" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
-          <mxGeometry x="60" y="460" width="940" height="230" as="geometry" />
-        </mxCell>
         <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-45" value="Application&lt;br&gt;Processing" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1030" width="940" height="230" as="geometry" />
+          <mxGeometry x="60" y="720" width="940" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-46" value="PO reviews&lt;br&gt;the case" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="730" />
+            </Array>
+            <mxPoint x="835" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-47" value="routes to AO and &lt;br&gt;then to classifer" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="810" />
+            </Array>
+            <mxPoint x="835" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-49" value="AO1, AO2 &lt;br&gt;approves &lt;br&gt;the case" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="880" />
+            </Array>
+            <mxPoint x="835" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-50" value="Classifier issues &lt;br&gt;certificate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint x="830" y="960" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="960" />
+            </Array>
+            <mxPoint x="835" y="980" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="790" as="sourcePoint" />
+            <mxPoint x="960" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-52" value="updates case instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="755" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="860" as="sourcePoint" />
+            <mxPoint x="960" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-54" value="updates case instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="835" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="1020" as="sourcePoint" />
+            <mxPoint x="960" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-56" value="updates case instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="985" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="940" as="sourcePoint" />
+            <mxPoint x="960" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-58" value="updates case instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="905" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-60" value="server response with case status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.9;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1066" as="sourcePoint" />
+            <mxPoint x="354" y="1063.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2Nvd-xUFt3gvs3JJhA3-62" value="view application status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="-0.0909" y="10" relative="1" as="geometry">
+            <mxPoint x="170" y="1100" as="sourcePoint" />
+            <mxPoint x="350" y="1100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
